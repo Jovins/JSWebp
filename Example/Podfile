@@ -1,0 +1,14 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'JSWebp_Example' do
+  pod 'JSWebp', :path => '../'
+  pod 'libwebp'
+
+  target 'JSWebp_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

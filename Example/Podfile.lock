@@ -1,0 +1,31 @@
+PODS:
+  - JSWebp (0.1.0)
+  - libwebp (1.2.0):
+    - libwebp/demux (= 1.2.0)
+    - libwebp/mux (= 1.2.0)
+    - libwebp/webp (= 1.2.0)
+  - libwebp/demux (1.2.0):
+    - libwebp/webp
+  - libwebp/mux (1.2.0):
+    - libwebp/demux
+  - libwebp/webp (1.2.0)
+
+DEPENDENCIES:
+  - JSWebp (from `../`)
+  - libwebp
+
+SPEC REPOS:
+  trunk:
+    - libwebp
+
+EXTERNAL SOURCES:
+  JSWebp:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JSWebp: b31530a4cdadc758e6f7aeb53afcf5dd3956767b
+  libwebp: 3aa3dfd4b00d3caf4c12b4bbc17e9b7b2df3f6fb
+
+PODFILE CHECKSUM: 9272da9aca752ec10067db0ae99a7e3dca33ebbf
+
+COCOAPODS: 1.10.1

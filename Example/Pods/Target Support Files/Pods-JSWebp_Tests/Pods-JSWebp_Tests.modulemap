@@ -1,0 +1,6 @@
+framework module Pods_JSWebp_Tests {
+  umbrella header "Pods-JSWebp_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

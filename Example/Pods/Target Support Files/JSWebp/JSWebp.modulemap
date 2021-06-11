@@ -1,0 +1,6 @@
+framework module JSWebp {
+  umbrella header "JSWebp-umbrella.h"
+
+  export *
+  module * { export * }
+}
