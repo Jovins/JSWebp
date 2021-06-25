@@ -52,6 +52,10 @@ class ViewController: UIViewController {
         "https://p3.pstatp.com/obj/80280005abd331a7d00e",
         "https://p3.pstatp.com/obj/77ee00053511fd77273c",
         "https://p1.pstatp.com/obj/7a1700151f38bc7f2fde",
+        "https://p3.pstatp.com/obj/7ac8000de933897548a6",
+        "https://p3.pstatp.com/obj/80280005abd331a7d00e",
+        "https://p3.pstatp.com/obj/77ee00053511fd77273c",
+        "https://p1.pstatp.com/obj/7a1700151f38bc7f2fde",
         "https://p3.pstatp.com/obj/7ac8000de933897548a6"
     ]
     private lazy var layout: UICollectionViewFlowLayout = {
